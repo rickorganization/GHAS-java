@@ -12,7 +12,7 @@ import com.prog.entity.UserDtls;
 import com.prog.repository.UserRepository;
 
 @Controller
-public class userController {
+public class UserController {
 	
 	@Autowired
 	private UserRepository repo;
