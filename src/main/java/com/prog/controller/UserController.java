@@ -12,7 +12,7 @@ import com.prog.entity.UserDtls;
 import com.prog.repository.UserRepository;
 
 @Controller
-public class Usercontroller {
+public class UserController {
 	
 	@Autowired
 	private UserRepository repo;
@@ -21,7 +21,7 @@ public class Usercontroller {
 
 	public String home()
 	{
-		return "Index";
+		return "index";
 	}
 
 @PostMapping("/register")
